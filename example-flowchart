@@ -1,0 +1,13 @@
+// Example Flowchart
+digraph {
+	A [label=Start]
+	B [label="Decision Point"]
+	C [label="Process 1"]
+	D [label="Process 2"]
+	E [label=End]
+	A -> B [label=Next]
+	B -> C [label=Yes]
+	B -> D [label=No]
+	C -> E
+	D -> E
+}
